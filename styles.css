@@ -1,19 +1,37 @@
-
 .header {
     display: flex;
     background-color: #1F2937;
-    padding: 20px;
     color: white;
     justify-content:space-between;
+    padding: 10px;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+    padding: 10px
+}
+
+button {
+    font-size: 15px;
 }
 
 .top-section{
     display: flex;
     justify-content: space-around;
-    background-color: #1F2937;
-    color: white;
+    background-color: #f4ebca;
+    color: rgb(98, 98, 98);
     padding: 40px;
+    font-size: 20px;
+}
 
+.top-section-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .mid-section {
@@ -26,18 +44,20 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
     gap: 50px;
 }
 
-.tile {
-    border: 1px solid blue;
-}
 
 .mid-low-section {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #E5E7EB;
+    background-color: #f4ebca;
+    padding: 50px;
+    margin: 50px 0px;
+    font-size: 20px;
+    font-style: italic;
 
 }
 
@@ -49,9 +69,29 @@
 .action-bar {
     display: flex;
     justify-content: center;
-    background-color: blue;
+    background-color: rgb(161, 161, 161);
     color: white;
     padding: 20px;
     width: 800px;
     gap: 30px;
+    border-radius: 20px;
+    font-size: 20px;
+    align-items: center;
+}
+
+.action-button {
+    width: 150px;
+    height: 30px;
+    align-self: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    background-color: #1F2937;
+    color: white;
+    margin-top: 50px;
 }
