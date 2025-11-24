@@ -1,10 +1,19 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 .header {
     display: flex;
-    background-color: #1F2937;
+    background-color: #0a3c0e;
     color: white;
     justify-content:space-between;
     padding: 10px;
     font-size: 20px;
+}
+
+.nav-logo{
+    font-size: 25px;
+    padding-left: 25px;
 }
 
 a {
@@ -16,13 +25,14 @@ a {
 
 button {
     font-size: 15px;
+    border-radius: 10px;
 }
 
 .top-section{
     display: flex;
     justify-content: space-around;
-    background-color: #f4ebca;
-    color: rgb(98, 98, 98);
+    background-color: #aeefa6;
+    color: rgb(0, 0, 0);
     padding: 40px;
     font-size: 20px;
 }
@@ -31,7 +41,21 @@ button {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items:self-end;
+}
+
+.top-section-button {
+    font-size: 20px;
+    width: 120px;
+    color: white;
+    background-color: rgb(2, 39, 2);
+    margin-right: 40px;
+    height: 40px;
+}
+
+.tile-header {
+    font-size: 17px;
+    font-weight: bold;
 }
 
 .mid-section {
@@ -46,14 +70,20 @@ button {
     justify-content: center;
     align-items: center;
     gap: 50px;
+    max-width: 500px;
 }
-
+.tile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 .mid-low-section {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #f4ebca;
+    background-color: #aeefa6;
     padding: 50px;
     margin: 50px 0px;
     font-size: 20px;
@@ -71,8 +101,8 @@ button {
     justify-content: center;
     background-color: rgb(161, 161, 161);
     color: white;
-    padding: 20px;
-    width: 800px;
+    padding: 30px 50px;
+    width: 1000px;
     gap: 30px;
     border-radius: 20px;
     font-size: 20px;
@@ -91,7 +121,7 @@ button {
     display: flex;
     justify-content: center;
     align-items: end;
-    background-color: #1F2937;
+    background-color: #0a3c0e;
     color: white;
     margin-top: 50px;
 }
